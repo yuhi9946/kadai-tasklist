@@ -5,7 +5,7 @@
         <h2>タスク新規追加ページ</h2>
 
         <form method="POST" action="${pageContext.request.contextPath}/create">
-            <c:import url="_form.jsp"></c:import>
+            <c:import url="_form.jsp" />
         </form>
 
         <p><a href="${pageContext.request.contextPath}/index">タスク一覧に戻る</a><p>
